@@ -1,4 +1,4 @@
-package com.example.travelblog;
+package com.example.travelblog.Fragments;
 
 
 import android.os.Bundle;
@@ -11,6 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.travelblog.Adapters.HomeAdapter;
+import com.example.travelblog.R;
+import com.example.travelblog.SharedPref;
+import com.example.travelblog.TravelBlog;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;

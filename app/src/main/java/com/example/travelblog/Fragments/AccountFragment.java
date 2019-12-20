@@ -1,4 +1,4 @@
-package com.example.travelblog;
+package com.example.travelblog.Fragments;
 
 
 import android.net.Uri;
@@ -12,13 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.travelblog.Adapters.AccountAdapter;
+import com.example.travelblog.R;
+import com.example.travelblog.SharedPref;
+import com.example.travelblog.TravelBlog;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

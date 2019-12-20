@@ -1,4 +1,4 @@
-package com.example.travelblog;
+package com.example.travelblog.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.Switch;
+
+import com.example.travelblog.R;
+import com.example.travelblog.SharedPref;
 
 public class SettingActivity extends AppCompatActivity {
 

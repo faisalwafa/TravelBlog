@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.travelblog.Activities.MainActivity;
+
 public class SplashscreenActivity extends AppCompatActivity {
 
     @Override
@@ -16,7 +18,7 @@ public class SplashscreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashscreenActivity.this,MainActivity.class));
+                startActivity(new Intent(SplashscreenActivity.this, MainActivity.class));
                 finish();
             }
         },5000);
